@@ -1,6 +1,8 @@
 vorpal-rc
 =========
 
+[![Travis](https://img.shields.io/travis/subk/vorpal-rc.svg?style=flat-square)]()
+
 .rc file support for [Vorpal.js](http://vorpal.js.org/)
 
 ## Installation
