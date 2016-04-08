@@ -3,6 +3,7 @@
   "description": ".rc file support for Vorpal.js",
   "main": "./dist/rc.js",
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "babel src -d dist",
     "example": "babel-node examples/shell.js",
     "test": "mocha -w --compilers js:babel-register test/test.js",
@@ -37,7 +38,9 @@
   "dependencies": {
     "trim": "0.0.1"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
