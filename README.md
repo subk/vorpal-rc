@@ -3,12 +3,12 @@ vorpal-rc
 
 .rc file support for [Vorpal.js](http://vorpal.js.org/)
 
-# Installation
+## Installation
 ```bash
 $ npm i vorpal-rc
 ```
 
-# Usage
+## Usage
 ```javascript
 var vorpal = require('vorpal')();
 var rc = require('vorpal-rc');
@@ -28,7 +28,7 @@ vorpal
   .show();
 ```
 
-# Example
+## Example
 
 Quick example :
 ```bash
@@ -41,5 +41,5 @@ Hi Vorpal !
 $
 ```
 
-# License
+## License
 MIT
