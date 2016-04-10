@@ -2,7 +2,7 @@ vorpal-rc
 =========
 
 [![Travis](https://img.shields.io/travis/subk/vorpal-rc.svg?style=flat-square)]()
-[![Codecov](https://img.shields.io/codecov/c/github/subk/vorpal-rc.svg?maxAge=2592000)]()
+[![Codecov](https://img.shields.io/codecov/c/github/subk/vorpal-rc.svg?maxAge=2592000?style=flat-square)]()
 
 .rc file support for [Vorpal.js](http://vorpal.js.org/)
 
