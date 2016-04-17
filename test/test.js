@@ -1,6 +1,5 @@
 import { expect } from 'chai';
 import rc from '../src/rc';
-import child from 'child_process';
 import { join } from 'path';
 import Vorpal from 'vorpal';
 import { stdout, stderr } from 'test-console';
