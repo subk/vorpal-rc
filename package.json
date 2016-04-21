@@ -3,7 +3,7 @@
   "description": ".rc file support for Vorpal.js",
   "main": "./dist/rc.js",
   "scripts": {
-    "prebuild": "rm -rf dist",
+    "prebuild": "rimraf dist",
     "build": "babel src -d dist",
     "example": "babel-node examples/shell.js",
     "check-coverage": "istanbul check-coverage --statements 100 --functions 100 --lines 100",
@@ -26,6 +26,10 @@
   "bugs": {
     "url": "https://github.com/subk/vorpal-rc/issues"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "homepage": "https://github.com/subk/vorpal-rc#readme",
   "devDependencies": {
     "babel-cli": "^6.6.5",
@@ -36,6 +40,7 @@
     "cz-conventional-changelog": "^1.1.5",
     "istanbul": "^1.0.0-alpha.2",
     "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
     "semantic-release": "^4.3.5",
     "test-console": "^1.0.0",
     "vorpal": "^1.10.10"

@@ -14,8 +14,10 @@ $ npm i vorpal-rc
 
 ## Usage
 ```javascript
-var vorpal = require('vorpal')();
-var rc = require('vorpal-rc');
+import Vorpal from 'vorpal';
+import rc from 'vorpal-rc';
+
+const vorpal = new Vorpal();
 
 // first declare your commands
 vorpal
